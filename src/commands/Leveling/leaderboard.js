@@ -6,7 +6,7 @@ import { getLeaderboard, getLevelingConfig, getXpForLevel } from '../../services
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
   data: new SlashCommandBuilder()
-    .setName('leaderboard')
+    .setName('︵‿   level leaderboard!  ♡  ◞')
     .setDescription("Shows the server's level leaderboard")
     .setDMPermission(false),
   category: 'Leveling',
