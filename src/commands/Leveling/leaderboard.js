@@ -39,7 +39,7 @@ export default {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle('︵‿     𝒮erver leaderboard!  ♡  ◞')
+      .setTitle('   𝒮erver leaderboard!  ♡  ◞')
       .setColor('#FDEFB2')
       .setDescription(".˚our most active chatters ⤦")
       .setTimestamp();
