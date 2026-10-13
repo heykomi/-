@@ -6,7 +6,7 @@ import { getLeaderboard, getLevelingConfig, getXpForLevel } from '../../services
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 export default {
   data: new SlashCommandBuilder()
-    .setName('︵‿   level leaderboard!  ♡  ◞')
+    .setName("leaderboard")
     .setDescription("Shows the server's level leaderboard")
     .setDMPermission(false),
   category: 'Leveling',
@@ -39,9 +39,9 @@ export default {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle('Level Leaderboard')
-      .setColor('#2ecc71')
-      .setDescription("Top 10 most active members in this server:")
+      .setTitle('︵‿   𝒮erver leaderboard!  ♡  ◞')
+      .setColor('#FDEFB2')
+      .setDescription(".˚our most active chatters ⤦")
       .setTimestamp();
 
     const leaderboardText = await Promise.all(
