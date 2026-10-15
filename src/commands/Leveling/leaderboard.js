@@ -41,7 +41,7 @@ export default {
     const embed = new EmbedBuilder()
       .setTitle('  ֹ  🍓  ׄ ݊ ݂  𝒮ꫀ𝗋vꫀ𝗋 ໃꫀᥲɗꫀ𝗋bꪮᥲ𝗋ɗ!  ♡  ◞')
       .setColor('#FDEFB2')
-      .setDescription(" 𓈒   𓈒   𓈒 ꪮur most active berries! ")
+      .setDescription(" 𓈒   𓈒   𓈒 ꪮur most active berries, keep chatting! ")
       .setTimestamp();
 
     const leaderboardText = await Promise.all(
