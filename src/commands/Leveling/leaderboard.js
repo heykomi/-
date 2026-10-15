@@ -39,7 +39,7 @@ export default {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle('  ֹ  🍓  ׄ ݊ ݂  𝒮erver leaderboard!  ♡  ◞')
+      .setTitle('  ֹ  🍓  ׄ ݊ ݂  𝒮ꫀ𝗋vꫀ𝗋 ໃꫀᥲɗꫀ𝗋bꪮᥲ𝗋ɗ!  ♡  ◞')
       .setColor('#FDEFB2')
       .setDescription(".˚our most active berries! ")
       .setTimestamp();
