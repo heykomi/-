@@ -20,7 +20,7 @@ export default {
       await InteractionHelper.safeEditReply(interaction, {
         embeds: [
           new EmbedBuilder()
-            .setColor('#f1c40f')
+            .setColor('#FDEFB2')
             .setDescription('The leveling system is currently disabled on this server.')
         ],
         flags: MessageFlags.Ephemeral
@@ -39,9 +39,9 @@ export default {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle('   𝒮erver leaderboard!  ♡  ◞')
+      .setTitle('  ֹ  🍓  ׄ ݊ ݂  𝒮erver leaderboard!  ♡  ◞')
       .setColor('#FDEFB2')
-      .setDescription(".˚our most active chatters ⤦")
+      .setDescription(".˚our most active berries! ")
       .setTimestamp();
 
     const leaderboardText = await Promise.all(
